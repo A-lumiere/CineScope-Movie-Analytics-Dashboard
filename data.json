@@ -1,0 +1,17 @@
+{
+    "movie_extended": {
+        "path": "project-data/movie_extended.csv",
+        "format": "csv", 
+        "options": {"header": true, "inferSchema": true} 
+    }, 
+    "movies_main": {
+        "path": "project-data/movies_main.csv", 
+        "format": "csv", 
+        "options": {"header": true, "inferSchema": true}
+    }, 
+    "ratings": { 
+        "path": "project-data/ratings.json", 
+        "format": "json", 
+        "options": {"multiline": true}
+    }
+}
